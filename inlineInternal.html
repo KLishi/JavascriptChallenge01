@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline/internal/external javascript</title>
+</head>
+
+<body>
+    <h1>
+Inline / Internal Js
+    </h1>
+    <a href="external.html">External Js</a>
+   
+    <!-- INLINE JS -->
+    <h4>Inline Js</h4>
+    <button onclick="alert('this is inline js')">click inline</button>
+    <!-- INTERNAL JS -->
+    <h4>Internal Js</h4>
+    <button class="btn">click internal</button>
+    <button class="btn">click internal</button>
+    <button class="btn">click internal</button>
+    <button class="btn">click internal</button>
+    <button class="btn">click internal</button>
+    <button class="btn">click internal</button>
+    <button class="btn">click internal</button>
+    <br>
+    <br>
+    
+
+    <a href="index.html">Home</a>
+    <!-- INTERNAL JS -->
+    <script>document.querySelectorAll('.btn').forEach((item) => { item.addEventListener('click', () => { alert('this is internal js') }) })</script>
+</body>
+</html>
