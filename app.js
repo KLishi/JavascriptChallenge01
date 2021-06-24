@@ -1,18 +1,18 @@
-// document.write("document.write method");
-// alert("alert method");
-// console.log("console.log method");
+document.write('document.write method');
+alert('alert method');
+console.log('console.log method');
 // ------------------------------------------------------------
 
 // statements=sets of instructions like asking computer to print something
 // only console can show object
 // ----------------------------------------------------------------
 
-// document.write({ name: "objectname" });
-// alert({ name: "objectname" });
-// console.log({ name: "objectname" });
-// console.log({ name: "objectname" });
-// console.log({ name: "objectname" });
-// console.log("hai");
+document.write({ name: 'objectname' });
+alert({ name: 'objectname' });
+console.log({ name: 'objectname' });
+console.log({ name: 'objectname' });
+console.log({ name: 'objectname' });
+console.log('hai');
 // -------------------------------------------------------------
 
 // variables - basic building blocks
@@ -37,6 +37,7 @@ console.log(name);
 
 // let 123name="wrong name";
 // console.log(123name);
+
 // Wrong variable declaration.......variable name shouldn't start with number
 // keywords cannot be variable names
 // let let = "name" is wrong since let is a keyword
@@ -54,3 +55,22 @@ b = 'changed more value';
 //preferred........block scope
 const c = 'cannot change'; // cannot reassign and always need to be declared initially. will be constant.....block scope
 console.log(a, b, c);
+// ----------------------------------------
+// const msg='john's course is best'
+// wrong
+const msg = "john's course is best";
+
+const msg1 = "john's course is best";
+const msg2 = `john's course is best`;
+// `` - backticks (template  strings)- easier option
+console.log(msg, msg1, msg2);
+//string concatenation - combine string values
+const website = 'google';
+
+const url = 'https://www.' + website + '.com';
+console.log(url)
+const firstName='john'
+const lastName='doe'
+let fullName;
+fullName = firstName + ''+ lastName;
+console.log(fullName);
